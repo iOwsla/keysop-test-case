@@ -1,0 +1,29 @@
+Giriş
+Bu görevin amacı, adayın backend teknolojilerine aşinalığını, veri modelleme becerilerini ve API
+tasarımında ne kadar yetkin olduğunu değerlendirmektir.
+
+Notlar
+● Nodejs veya Php kullanin.
+● Kodun temiz, iyi yapılandırılmış ve sürdürülebilir olmasına dikkat edin.
+● Lütfen bir readme dosyası ekleyerek mimari kararlarınızı (örneğin, neden belirli bir
+teknoloji yığınını seçtiğiniz) ve çözümünüzün nasıl çalıştırılacağını açıklayın.
+● Basit ama işlevsel bir API oluşturmanız yeterlidir, ancak testleri eklemeyi unutmayın.
+
+Gereksinim
+Bir kitap koleksiyonu yönetim sistemi API&#39;si oluşturun. API, aşağıdaki işlevsellikleri sağlamalıdır:
+1. Kitap Ekleme: Kullanıcı, kitap adı, yazar, yayın yılı ve tür gibi bilgileri girerek sisteme
+yeni bir kitap ekleyebilmelidir.
+2. Kitap Listeleme: Kullanıcı, eklenen tüm kitapların bir listesini alabilmelidir.
+3. Kitap Detaylarını Görüntüleme: Kullanıcı, bir kitabın kimlik numarasını girerek o kitabın
+detaylarını alabilmelidir.
+4. Kitap Güncelleme: Kullanıcı, mevcut bir kitabın bilgilerini güncelleyebilmelidir.
+5. Kitap Silme: Kullanıcı, bir kitabı sistemden silebilmelidir.
+
+Ek Özellikler (Opsiyonel)
+● Kullanıcıların kitapları tür veya yazar gibi kriterlere göre filtreleyebilmesi.
+● Kitapların popülerlik veya kullanıcı puanlarına göre sıralanması.
+● Basit bir kimlik doğrulama sistemi (örneğin, JWT ile).
+
+Mimari Uygulamanızı dilediğiniz gibi tasarlayabilirsiniz. Ancak, temiz kod, veri modelleme ve
+API tasarımındaki en iyi uygulamalara odaklandığınızdan emin olun. Bu görev, sizin backend
+geliştirme konusundaki bilgi ve yetkinliğinizi değerlendirmek için hazırlanmıştır.

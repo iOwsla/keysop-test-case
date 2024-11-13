@@ -1,0 +1,11 @@
+model Rate {
+  value      Int      @db.SmallInt
+  book_id    Int
+  book       Book     @relation(fields: [book_id], references: [id], onDelete: Cascade)
+  author_id  Int
+  author     User     @relation(fields: [author_id], references: [id], onDelete: NoAction)
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+
+  @@unique([book_id, author_id])
+}
