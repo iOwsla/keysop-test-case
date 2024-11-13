@@ -8,7 +8,7 @@ const scheme = z.object({
   genre: z.nativeEnum(Genre).optional(),
   page: z.number().int().min(0).default(0),
   limit: z.number().int().default(10).refine(n => [10, 20, 50, 100].includes(n), "Limit can only be 10, 20, 50, 100."),
-  sort_by_rate: z.enum(['asc', 'desc']).default('desc').optional()
+  sort_by_rate: z.enum(['asc', 'desc']).optional()
 });
 
 export const get: Handler = async (ctx) => {
