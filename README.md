@@ -25,9 +25,6 @@ Test case dökümanının Türkçe olması sebebiyle, dokümantasyon da Türkçe
   - Hafif ve hızlı
   - TypeScript desteği
   - Middleware sistemi
-- **Prisma** - ORM
-  - Type-safe database erişimi
-  - Kolay migration yönetimi
 - **Jest** - Test framework
 - **Zod** - Validation
 - **JWT** - Kimlik doğrulama
@@ -53,7 +50,7 @@ AUTH_SECRET="dG9PMAhr3AwuBmhsf3C47urRNPELaW"
 
 4. Database migration'ları çalıştırın:
 ```bash
-npx prisma migrate dev
+npx prisma db push
 ```
 
 5. Uygulamayı başlatın:
